@@ -2,8 +2,41 @@
     margin: 0;
     padding: 0;
 }
+.section1{
+    height: 800px;
+}
+.graph1{
+    margin-top: 200PX;
+    display: flex;
+    justify-content: center;
+}
 
+.text1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    align-items: center;
+    margin-top: 75PX;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 40PX;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
 
-#graphpop1{
-    width: 80%;
+.grafico2{
+    width: 40%;
+    background-color: rgb(119, 0, 255);
+
+}
+.section2{
+    background-color: white;
+    height: 300px;
 }

@@ -1,4 +1,4 @@
-const ctx = document.getElementById('graphpop1');
+let ctx = document.getElementById('graphpop1');
 ctx.width = 200;
 
 new Chart(ctx, {
@@ -9,21 +9,30 @@ new Chart(ctx, {
       label: 'Anual do estado',
       data: [12807706, 12975915, 13146333, 13318990, 13493914, 13671135, 13850684, 14032591, 14216887, 14403603, 14547985, 14695177, 14845297, 14998470, 15154832, 15314526, 15477710, 15644549, 15815224, 15989929, 16112678, 16231365, 16369178, 16461173, 16550024, 16635996, 16718956, 17159960, 17264943, 17366189, 17463349, 17561377],
       borderWidth: 5,
+      backgroundColor: 'gray',
+      color: 'white'
     }]
   },
   options: {
-    aspectRatio: 7,
+    aspectRatio: 4,
     scales: {
       y: {
-        beginAtZero: true
+        beginAtZero: true,
+        ticks: {
+          color: 'white' // Altere a cor dos rótulos do eixo y aqui
+        }
+      },
+      x: {
+        ticks: {
+          color: 'white' // Altere a cor dos rótulos do eixo x aqui
+        }
       }
-    },
+    }
+
   }
 });
-
-
 //-----------------------------------
-const data = {
+let data = {
   labels: [
     '2001',   '2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017', '2018', '2019', '2020', '2021'
   ],
@@ -40,15 +49,15 @@ const data = {
   }]
 };
 
-const grafico2 = {
-  type: 'doughnut',
+let grafico2 = {
+  type: 'pie',
   data: data,
   options: {
-    aspectRatio: 10,
+    aspectRatio: 8,
     
   }
 };
 
-const ctx2 = document.getElementById('graphvei');
+let ctx2 = document.getElementById('graphvei');
 
 new Chart(ctx2, grafico2);
