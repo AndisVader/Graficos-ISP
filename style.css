@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.graph1{
+    padding: 150px;
+    background-color: aqua
+}
+
+.graph2{
+    padding: 150px;
+    background-color: red;
+}
