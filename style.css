@@ -1,17 +1,29 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
-.section1{
+
+
+.section1 {
     height: 800px;
 }
-.graph1{
-    margin-top: 200PX;
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: min-content;
+    z-index: -1;
+}
+
+.graph1 {
+    margin-top: 100PX;
     display: flex;
     justify-content: center;
 }
 
-.text1{
+.text1 {
     display: flex;
     justify-content: center;
     color: white;
@@ -21,22 +33,82 @@
     flex-direction: column;
     text-transform: uppercase;
     gap: 90PX;
+    font-size: 3em;
 }
-#video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-  }
-
-.grafico2{
-    width: 40%;
-        
+.text2{
+    background-color: white;
+}
+.text21{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 150PX;
+    font-size: 1.5em;
+    background-size: 15px;
+    background-image: url(./assets/GRADE.png);
+}
+/*UPP*/
+.textimgUPP img{
+    height: 700PX;
+    width: 30%;
 
 }
-.section2{
+.textimgUPP{
+    display: flex;
+    justify-content: space-around;
+}
+.textUPP{
+    font-size: 4em;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grafico3{
+    margin-top: 40px;
+}
+
+
+.textgraph4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.h1graph4{
+    font-size: 2em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.grafico4 {
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 2px 1px 0 1PX gray;
+    border-radius: 15PX;
+
+
+}
+
+
+.section2 {
     background-color: white;
 
+}
+
+.section3 {
+    background-color: white;
+}
+.grafico2{
+    width: 50%;
+}
+.imgCar img{
+    height: 400px;
+    width: 400px;
 }
