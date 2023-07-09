@@ -8,7 +8,7 @@ new Chart(ctx, {
     datasets: [{
       label: 'Anual do estado',
       data: [12807706, 12975915, 13146333, 13318990, 13493914, 13671135, 13850684, 14032591, 14216887, 14403603, 14547985, 14695177, 14845297, 14998470, 15154832, 15314526, 15477710, 15644549, 15815224, 15989929, 16112678, 16231365, 16369178, 16461173, 16550024, 16635996, 16718956, 17159960, 17264943, 17366189, 17463349, 17561377],
-      borderWidth: 5,
+      borderWidth: 4,
       backgroundColor: 'gray',
       color: 'white'
     }]
@@ -50,10 +50,13 @@ let data = {
 };
 
 let grafico2 = {
-  type: 'pie',
+  type: 'polarArea',
   data: data,
   options: {
     aspectRatio: 2,
+    layout: {
+      padding: 50
+  }
     
   }
 };
