@@ -53,7 +53,7 @@ let grafico2 = {
   type: 'pie',
   data: data,
   options: {
-    aspectRatio: 8,
+    aspectRatio: 2,
     
   }
 };
