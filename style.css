@@ -108,7 +108,13 @@
 .grafico2{
     width: 50%;
 }
-.imgCar img{
-    height: 400px;
-    width: 400px;
+
+.cont3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    background-image: url(./assets/GRADE.png);
+    background-size: 10px;
+    gap: 200px;
 }
