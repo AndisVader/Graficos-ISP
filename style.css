@@ -106,7 +106,10 @@
     background-color: white;
 }
 .grafico2{
-    width: 50%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .cont3{

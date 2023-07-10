@@ -19,20 +19,20 @@ new Chart(ctx, {
       y: {
         beginAtZero: false,
         ticks: {
-          color: 'white' // Altere a cor dos rótulos do eixo y aqui
+          color: 'white' 
         },
-         grid: {
+        grid: {
           display: false
         }
       },
       x: {
         ticks: {
-          color: 'white' // Altere a cor dos rótulos do eixo x aqui
+          color: 'white' 
         },
-        grid:{
+        grid: {
           display: false
         }
-  
+
       }
     }
 
@@ -57,18 +57,25 @@ let graph2 = {
 };
 
 let grafico2 = {
-  type: 'polarArea',
+  type: 'line',
   data: graph2,
   options: {
-    aspectRatio: 2,
+    aspectRatio: 5,
     layout: {
-      padding: 50
+      padding: 60
     },
     plugins: {
-      legend: {
-        display: false // Oculta a legenda
-      }
+ 
+      indexAxis: 'x ',
     },
+    scales: {
+      y: {
+        beginAtZero: false,
+        ticks: {
+          reverse: true 
+        }
+      }
+    }
   }
 };
 
@@ -93,16 +100,16 @@ let grafico3 = {
     backgroundColor: 'gray',
     elements: {
       line: {
-          tension: 0.5
+        tension: 0.5
       }
-  },
+    },
     aspectRatio: 5,
     scales: {
       y: {
         beginAtZero: false,
-       
 
-  
+
+
       }
     }
   }
