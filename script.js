@@ -19,7 +19,7 @@ new Chart(ctx, {
       y: {
         beginAtZero: false,
         ticks: {
-          color: 'white' 
+          color: 'white'
         },
         grid: {
           display: false
@@ -27,7 +27,7 @@ new Chart(ctx, {
       },
       x: {
         ticks: {
-          color: 'white' 
+          color: 'white'
         },
         grid: {
           display: false
@@ -38,53 +38,9 @@ new Chart(ctx, {
 
   }
 });
-//-----------------------------------
+//---------------------------grafico 2
+
 let graph2 = {
-  labels: [
-    '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'
-  ],
-  datasets: [{
-    label: 'Veículos no estado por ano',
-    data: [2968976, 3181471, 3375449, 3501903, 3637209, 3782168, 3954731, 4201020, 4460310, 4738780, 5066875, 5419138, 5788294, 6138605, 6477703, 6728472, 6908401, 7064020, 7245180, 7465532, 7608791],
-    backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(75, 192, 192)',
-      'rgb(255, 205, 86)',
-      'rgb(201, 203, 207)',
-      'rgb(54, 162, 235)',
-    ]
-  }]
-};
-
-let grafico2 = {
-  type: 'line',
-  data: graph2,
-  options: {
-    aspectRatio: 5,
-    layout: {
-      padding: 60
-    },
-    plugins: {
- 
-      indexAxis: 'x ',
-    },
-    scales: {
-      y: {
-        beginAtZero: false,
-        ticks: {
-          reverse: true 
-        }
-      }
-    }
-  }
-};
-
-let ctx2 = document.getElementById('graphvei');
-
-new Chart(ctx2, grafico2);
-
-//----------------
-let graph3 = {
   labels: [
     'Santa Marta', 'Cidade de Deus', 'Batam', 'Chapéu Mangueira', 'Pavão-Pavãozinho', 'Tabajaras', 'Providência', 'Borel', 'Formiga', 'Andaraí', 'Salgueiro', 'Turano', 'São João', 'Coroa', 'Escondidinho', 'São Carlos', 'Mangueira', 'Macacos', 'Vidigal', 'Nova brasília', 'Fazendinha', 'Baiana', 'Alemão', 'Chatuba', 'Sereno', 'Parque Proletário', 'Vila Cruzeiro', 'Rocinha', 'Jacarezinha', 'Manguinhos', 'Barreira do Vasco', 'Caju', 'Cerro-Corá', 'Arará', 'Lins', 'Camarista Méier', 'Mangueirinha', 'Vila Kennedy'],
   datasets: [{
@@ -93,9 +49,9 @@ let graph3 = {
   }]
 };
 
-let grafico3 = {
+let grafico2 = {
   type: 'line',
-  data: graph3,
+  data: graph2,
   options: {
     backgroundColor: 'gray',
     elements: {
@@ -115,13 +71,13 @@ let grafico3 = {
   }
 }
 
-let ctx3 = document.getElementById('graphUPP')
+let ctx2 = document.getElementById('graphUPP')
 
-new Chart(ctx3, grafico3)
+new Chart(ctx2, grafico2)
 
-//grafico 4
+//---------------grafico 3
 
-let graph4 = {
+let graph3 = {
   labels: ['Estado', 'Capital', '38 UPP'],
   datasets: [{
     label: '2007',
@@ -189,16 +145,61 @@ let graph4 = {
 };
 
 
-let grafico4 = {
+let grafico3 = {
   type: 'bar',
-  data: graph4,
-  labels: graph4,
+  data: graph3,
+  labels: graph3,
   options: {
     aspectRatio: 2,
   }
 
 }
 
-let ctx4 = document.getElementById('graph4')
+let ctx3 = document.getElementById('graph3')
 
-new Chart(ctx4, grafico4)
+new Chart(ctx3, grafico3)
+
+//---------------------------gráfico 4
+let graph4 = {
+  labels: [
+    '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'
+  ],
+  datasets: [{
+    label: 'Veículos no estado por ano',
+    data: [2968976, 3181471, 3375449, 3501903, 3637209, 3782168, 3954731, 4201020, 4460310, 4738780, 5066875, 5419138, 5788294, 6138605, 6477703, 6728472, 6908401, 7064020, 7245180, 7465532, 7608791],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(75, 192, 192)',
+      'rgb(255, 205, 86)',
+      'rgb(201, 203, 207)',
+      'rgb(54, 162, 235)',
+    ]
+  }]
+};
+
+let grafico4 = {
+  type: 'line',
+  data: graph4,
+  options: {
+    aspectRatio: 5,
+    layout: {
+      padding: 60
+    },
+    plugins: {
+
+      indexAxis: 'x ',
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+        ticks: {
+          reverse: true
+        }
+      }
+    }
+  }
+};
+
+let ctx4 = document.getElementById('graphvei');
+
+new Chart(ctx4, grafico4);

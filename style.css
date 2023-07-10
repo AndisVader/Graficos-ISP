@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0
 }
-
-
-.section1 {
-    height: 800px;
-}
-
+/*Section 1*/
 #video-background {
     position: absolute;
     top: 0;
@@ -21,20 +16,24 @@
     margin-top: 100PX;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .text1 {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: large;
     align-items: center;
-    margin-top: 75PX;
+    margin-top: 45PX;
     flex-direction: column;
     text-transform: uppercase;
     gap: 90PX;
-    font-size: 3em;
+    font-size: 2.5em;
 }
+.text1 mark
+
+/*section de texto*/
+
 .text2{
     background-color: white;
 }
@@ -47,70 +46,32 @@
     background-size: 15px;
     background-image: url(./assets/GRADE.png);
 }
-/*UPP*/
-.textimgUPP img{
-    height: 700PX;
-    width: 30%;
 
+/*section 2*/
+
+.textimgUPP img{
+    height: 650PX;
+    width: 30%;
 }
 .textimgUPP{
     display: flex;
     justify-content: space-around;
 }
 .textUPP{
-    font-size: 4em;
+    font-size: 3em;
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.grafico3{
-    margin-top: 40px;
-}
-
-
-.textgraph4{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-}
-
-.h1graph4{
-    font-size: 2em;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.grafico4 {
-    width: 50%;
-    background-color: whitesmoke;
-    box-shadow: 2px 1px 0 1PX gray;
-    border-radius: 15PX;
-
-
-}
-
-
-.section2 {
-    background-color: white;
-
-}
-
-.section3 {
-    background-color: white;
 }
 .grafico2{
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    margin-top: 100px;
 }
+.section2 {
+    background-color: white;
+}
+
+/*section 3*/
 
 .cont3{
     display: flex;
@@ -124,4 +85,34 @@
 .h1cont3{
     width: 40%;
     font-size: 2em;
+}
+.grafico3 {
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 2px 1px 0 1PX gray;
+    border-radius: 15PX;
+}
+.section3 {
+    background-color: white;
+}
+
+/*section 4*/
+
+.textgraph4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.h1graph4{
+    font-size: 2em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grafico4{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
