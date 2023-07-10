@@ -250,3 +250,38 @@ footer i {
         
     }
 }
+
+@media screen and (max-width:1200px){
+    .graph1{
+        margin: 0;
+    }
+    .section1{
+        padding: 100px;
+    }
+    .text1{
+        gap: 40px;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 30PX;
+    }
+    .textUPP{
+        font-size: 1.5em;
+    }
+    .textimgUPP img{
+        width: 300px;
+        height: 300px;
+    }
+    .grafico3{
+        padding: 0;
+        height: max-content;
+    }
+    .textgraph4{
+        align-items: center;
+    }
+    .cont3{
+        gap: 20px;
+    }
+    .cont3 video{
+        width: 50%;
+    }
+}
