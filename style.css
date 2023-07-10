@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0
 }
-@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Narnoor&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Lato:wght@300&family=Narnoor&display=swap');
+
+/* font-family: 'Akatab', sans-serif -para título;
+font-family: 'Narnoor', serif -para textos;
+  font-family: 'Lato', sans-serif;*/
 /*Section 1*/
 #video-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: min-content;
     z-index: -1;
 }
 
@@ -21,6 +25,7 @@
 }
 
 .text1 {
+    font-family: 'Akatab', sans-serif;
     display: flex;
     justify-content: center;
     color: white;
@@ -31,14 +36,18 @@
     gap: 90PX;
     font-size: 2.5em;
 }
-.text1 mark
+
+.text1 mark {
+    background-color: gray;
+}
 
 /*section de texto*/
 
-.text2{
+.text2 {
     background-color: white;
 }
-.text21{
+
+.text21 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -48,33 +57,44 @@
     background-image: url(./assets/GRADE.png);
 }
 
+.text21 h2 {
+    font-family: 'Narnoor', serif;
+    font-weight: 200;
+}
+
 /*section 2*/
 
-.textimgUPP img{
+.textimgUPP img {
     height: 650PX;
     width: 30%;
 }
-.textimgUPP{
+
+.textimgUPP {
     display: flex;
     justify-content: space-around;
 }
-.textUPP{
+
+.textUPP {
     font-size: 3em;
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Akatab', sans-serif;
+    font-weight: 100;
 }
-.grafico2{
+
+.grafico2 {
     margin-top: 100px;
 }
+
 .section2 {
     background-color: white;
 }
 
 /*section 3*/
 
-.cont3{
+.cont3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,37 +103,150 @@
     background-size: 10px;
     gap: 200px;
 }
-.h1cont3{
+
+.h1cont3 {
     width: 40%;
     font-size: 2em;
+    font-family: 'Akatab', sans-serif;
+    font-weight: 400;
 }
+
 .grafico3 {
     width: 50%;
     background-color: whitesmoke;
     box-shadow: 2px 1px 0 1PX gray;
     border-radius: 15PX;
 }
+
 .section3 {
     background-color: white;
 }
 
 /*section 4*/
 
-.textgraph4{
+.textgraph4 {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+
 }
-.h1graph4{
+
+.h1graph4 {
     font-size: 2em;
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Akatab', sans-serif;
+    font-weight: 400;
 }
-.grafico4{
+
+.grafico4 {
     width: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 50PX;
+    font-family: 'Akatab', sans-serif;
+    font-weight: 100;
+}
+
+footer i {
+    font-size: small;
+}
+
+/*Media Query*/
+@media screen and (max-width:650px) {
+    #video-background {
+        height: max-content;
+    }
+
+    .section1 {
+        height: min-content;
+        flex-direction: column;
+        padding: 70PX;
+    }
+
+    .text1 {
+        font-size: xx-small;
+        margin: 0;
+        gap: 0;
+        padding: 0;
+    }
+
+    .graph1 {
+        width: 50%;
+        margin: 0;
+    }
+
+    .textUPP {
+        font-size: 1.5em;
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .textimgUPP {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10PX;
+
+    }
+
+    .textimgUPP img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .grafico2 {
+        width: 100%;
+    }
+
+    .cont3 {
+        flex-direction: column;
+    }
+
+    #graphUPP {
+        display: none;
+        height: 150PX;
+    }
+
+    canvas {
+        height: 170PX;
+    }
+    .textgraph4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .h1graph4{
+        width: 90%;
+        font-size: 1.5em;
+    }
+    .grafico3{
+        margin-top: 45PX;
+        width: 90%;
+        padding: 0px;
+        height: max-content;
+    }
+    .h1cont3{
+        width: 90%;
+    }
+    .cont3{
+        gap: 0;
+    }
+    .cont3 video{
+        width: 90%;
+        height: 400px;
+    }
+    .grafico4{
+        
+    }
 }
