@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +16,7 @@
 
     <section class="section1">
         <video id="video-background" autoplay muted loop>
-            <source src="cidade.mp4" type="video/mp4">
+            <source src="./assets\cidade.mp4" type="video/mp4">
         </video>
         <div class="text1">
             <mark>
@@ -24,9 +24,11 @@
             </mark>
             <p>O crescimendo da população no Rio de Janeiro</p>
         </div>
+       
         <div class="graph1">
             <canvas id="graphpop1"></canvas>
         </div>
+        <button>oi</button>
     </section>
 
     <section class="text2">
@@ -75,13 +77,13 @@
         <canvas id="graphvei"></canvas>
     </div>
 
-    <script src="script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
     <footer>
         <h2>Todas as informações foram utilizadas do site <a href="https://www.ispdados.rj.gov.br/Populacao.html"
                 target="_blank"> ISP Dados <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </h2> </a>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

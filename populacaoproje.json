@@ -1,145 +1,144 @@
 {
-    "LEIAME":[
-     null,
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Taxa de crescimento utilizada na projeção de UPP"
-     },
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Unidade Territorial",
-      "Column2": 2007,
-      "Column3": 2008,
-      "Column4": 2009,
-      "Column5": 2010,
-      "Column6": 2011,
-      "Column7": 2012,
-      "Column8": 2013,
-      "Column9": 2014,
-      "Column10": 2015
-     },
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Capital",
-      "Column2": 0.9774585672567478,
-      "Column3": 0.9849153476525658,
-      "Column4": 0.9924290139111044,
-      "Column5": "-",
-      "Column6": 1.0056171668898048,
-      "Column7": 1.0110504859941845,
-      "Column8": 1.0173209295673118,
-      "Column9": 1.0210801579508786,
-      "Column10": 1.0247110726046862
-     },
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "38UPP",
-      "Column2": 675797.2591471048,
-      "Column3": 680952.7428907263,
-      "Column4": 686147.5564958872,
-      "Column5": "-",
-      "Column6": 695265.608078607,
-      "Column7": 699022.1071076313,
-      "Column8": 703357.3789261072,
-      "Column9": 705956.4417643943,
-      "Column10": 708466.7907995732
-     },
-     null,
-     null,
-     null,
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "* Nota: A projeção do estado e da capital teve como base os Censos Demográficos 2000 e 2010, do IBGE."
-     },
-     {
-      "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "** Nota: A projeção das 38 UPP teve como base o ano de 2010 e elaboração própria do ISP, com base na delimitação enviada pelo CPP, e considerou a mesma taxa de crescimento da população da Capital."
-     }
+    "projecao": [
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Taxa de crescimento utilizada na projeção de UPP"
+        },
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Unidade Territorial",
+            "Column2": 2007,
+            "Column3": 2008,
+            "Column4": 2009,
+            "Column5": 2010,
+            "Column6": 2011,
+            "Column7": 2012,
+            "Column8": 2013,
+            "Column9": 2014,
+            "Column10": 2015
+        },
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "Capital",
+            "Column2": 0.9774585672567478,
+            "Column3": 0.9849153476525658,
+            "Column4": 0.9924290139111044,
+            "Column5": "-",
+            "Column6": 1.0056171668898048,
+            "Column7": 1.0110504859941845,
+            "Column8": 1.0173209295673118,
+            "Column9": 1.0210801579508786,
+            "Column10": 1.0247110726046862
+        },
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "38UPP",
+            "Column2": 675797.2591471048,
+            "Column3": 680952.7428907263,
+            "Column4": 686147.5564958872,
+            "Column5": "-",
+            "Column6": 695265.608078607,
+            "Column7": 699022.1071076313,
+            "Column8": 703357.3789261072,
+            "Column9": 705956.4417643943,
+            "Column10": 708466.7907995732
+        },
+        null,
+        null,
+        null,
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "* Nota: A projeção do estado e da capital teve como base os Censos Demográficos 2000 e 2010, do IBGE."
+        },
+        {
+            "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "** Nota: A projeção das 38 UPP teve como base o ano de 2010 e elaboração própria do ISP, com base na delimitação enviada pelo CPP, e considerou a mesma taxa de crescimento da população da Capital."
+        }
     ],
-    "populacao":[
-     {
-      "Ano": 2007,
-      "Estado": 15477709.67241817,
-      "Capital": 6177974.091583644,
-      "38 UPP": 670817.1077469317
-     },
-     {
-      "Ano": 2008,
-      "Estado": 15644548.764458232,
-      "Capital": 6225104.26940927,
-      "38 UPP": 675934.5991944365
-     },
-     {
-      "Ano": 2009,
-      "Estado": 15815223.77560613,
-      "Capital": 6272593.991258385,
-      "38 UPP": 681091.1306700101
-     },
-     {
-      "Ano": 2010,
-      "Estado": 15989929,
-      "Capital": 6320446.000000001,
-      "38 UPP": 686287
-     },
-     {
-      "Ano": 2011,
-      "Estado": 16112678,
-      "Capital": 6355949,
-      "38 UPP": 690141.9886133035
-     },
-     {
-      "Ano": 2012,
-      "Estado": 16231365,
-      "Capital": 6390290,
-      "38 UPP": 693870.8048814909
-     },
-     {
-      "Ano": 2013,
-      "Estado": 16369177.999999998,
-      "Capital": 6429921.999999999,
-      "38 UPP": 698174.1287899617
-     },
-     {
-      "Ano": 2014,
-      "Estado": 16461173,
-      "Capital": 6453681.999999999,
-      "38 UPP": 700754.0383596346
-     },
-     {
-      "Ano": 2015,
-      "Estado": 16550024.000000004,
-      "Capital": 6476631,
-      "38 UPP": 703245.8878846522
-     },
-     {
-      "Ano": 2016,
-      "Estado": 16635996,
-      "Capital": 6498837,
-      "38 UPP": 705657.0609445918
-     },
-     {
-      "Ano": 2017,
-      "Estado": 16718956,
-      "Capital": 6520266,
-      "38 UPP": 707983.8657496641
-     },
-     {
-      "Ano": 2018,
-      "Estado": 17159960,
-      "Capital": 6688927,
-      "38 UPP": 726297.4233225
-     },
-     {
-      "Ano": 2019,
-      "Estado": 17264943,
-      "Capital": 6718903,
-      "38 UPP": 729552.2789311074
-     },
-     {
-      "Ano": 2020,
-      "Estado": 17366189,
-      "Capital": 6747815,
-      "38 UPP": 732691.6032357529
-     },
-     {
-      "Ano": 2021,
-      "Estado": 17463349,
-      "Capital": 6775561,
-      "38 UPP": 735704.3208670719
-     }
+    "populacao": [
+        {
+            "Ano": 2007,
+            "Estado": 15477709.67241817,
+            "Capital": 6177974.091583644,
+            "38UPP": 670817.1077469317
+        },
+        {
+            "Ano": 2008,
+            "Estado": 15644548.764458232,
+            "Capital": 6225104.26940927,
+            "38UPP": 675934.5991944365
+        },
+        {
+            "Ano": 2009,
+            "Estado": 15815223.77560613,
+            "Capital": 6272593.991258385,
+            "38UPP": 681091.1306700101
+        },
+        {
+            "Ano": 2010,
+            "Estado": 15989929,
+            "Capital": 6320446.000000001,
+            "38UPP": 686287
+        },
+        {
+            "Ano": 2011,
+            "Estado": 16112678,
+            "Capital": 6355949,
+            "38UPP": 690141.9886133035
+        },
+        {
+            "Ano": 2012,
+            "Estado": 16231365,
+            "Capital": 6390290,
+            "38UPP": 693870.8048814909
+        },
+        {
+            "Ano": 2013,
+            "Estado": 16369177.999999998,
+            "Capital": 6429921.999999999,
+            "38UPP": 698174.1287899617
+        },
+        {
+            "Ano": 2014,
+            "Estado": 16461173,
+            "Capital": 6453681.999999999,
+            "38UPP": 700754.0383596346
+        },
+        {
+            "Ano": 2015,
+            "Estado": 16550024.000000004,
+            "Capital": 6476631,
+            "38UPP": 703245.8878846522
+        },
+        {
+            "Ano": 2016,
+            "Estado": 16635996,
+            "Capital": 6498837,
+            "38UPP": 705657.0609445918
+        },
+        {
+            "Ano": 2017,
+            "Estado": 16718956,
+            "Capital": 6520266,
+            "38UPP": 707983.8657496641
+        },
+        {
+            "Ano": 2018,
+            "Estado": 17159960,
+            "Capital": 6688927,
+            "38UPP": 726297.4233225
+        },
+        {
+            "Ano": 2019,
+            "Estado": 17264943,
+            "Capital": 6718903,
+            "38UPP": 729552.2789311074
+        },
+        {
+            "Ano": 2020,
+            "Estado": 17366189,
+            "Capital": 6747815,
+            "38UPP": 732691.6032357529
+        },
+        {
+            "Ano": 2021,
+            "Estado": 17463349,
+            "Capital": 6775561,
+            "38UPP": 735704.3208670719
+        }
     ]
-    }
+}
