@@ -8,6 +8,7 @@
 /* font-family: 'Akatab', sans-serif -para título;
 font-family: 'Narnoor', serif -para textos;
   font-family: 'Lato', sans-serif;*/
+
 /*Section 1*/
 #video-background {
     position: absolute;
@@ -39,6 +40,25 @@ font-family: 'Narnoor', serif -para textos;
 
 .text1 mark {
     background-color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 115px;
+}
+.button button{
+    background: none;
+    border-color: silver;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 35px;
+    font-size: larger;
+}
+.button button:hover{
+    background-color: gray;
+    color: black;
 }
 
 /*section de texto*/

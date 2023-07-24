@@ -48,7 +48,7 @@
         {
             "O arquivo de população de área de UPP foi consolidado a partir dos dados de setores censitários dos Censo de 2010. A partir desse número, foi aplicada a taxa de crescimento da população da cidade do Rio de Janeiro, que se encontra na tabela abaixo, resultando os dados apresentados. a última atualição foi feita em Junho de 2016.": "** Nota: A projeção das 38 UPP teve como base o ano de 2010 e elaboração própria do ISP, com base na delimitação enviada pelo CPP, e considerou a mesma taxa de crescimento da população da Capital."
         }
-    ],
+    ], 
     "populacao": [
         {
             "Ano": 2007,

@@ -1,4 +1,42 @@
+//---------Função para troca de dados
+
+function stockData(val) {
+  console.log(val);
+  const url = 'mensal.json';
+
+  fetch(url)
+    .then(response => response.json())
+    .then(jsonData => {
+      console.log(jsonData); 
+
+      const selectedData = jsonData[`doismile${val === 0 ? 'tres' : val === 1 ? 'dez' : 'vinte'}`];
+
+      if (!selectedData) {
+        console.error('Erro: os dados selecionados estão vazios ou não estão no formato esperado.');
+        return;
+      }
+
+      const month = selectedData.map(index => `${index.mes}/${index.ano}`);
+      const profits = selectedData.map(index => {
+        const popValue = typeof index.pop === 'string' ? index.pop.replace(',', '.') : index.pop;
+        return parseFloat(popValue);
+      });
+      const companyname = `Dados de ${selectedData[0].ano}`;
+
+      myChart.config.data.labels = month;
+      myChart.config.data.datasets[0].data = profits;
+      myChart.config.data.datasets[0].label = companyname;
+      myChart.update();
+    })
+    .catch(error => {
+      console.error('Erro ao buscar os dados:', error);
+    });
+}
+
+var myChart; 
+
 document.addEventListener("DOMContentLoaded", function () {
+
 
   //---------------------------gráfico 1
 
@@ -8,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
   xmlhttp.onreadystatechange = function () {
-
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
       var data = JSON.parse(xmlhttp.responseText);
 
@@ -22,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       let ctx = document.getElementById('graphpop1');
 
-      new Chart(ctx, {
+      myChart = new Chart(ctx, { 
         type: 'bar',
         data: {
           labels: ano,
@@ -78,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       var pop_2010 = data.populaUPP.map(function (elem) {
-        return parseFloat(elem.pop_2010.replace(",", ".")); // Converte a string para número
+        return parseFloat(elem.pop_2010.replace(",", ".")); 
       });
 
       let graph2 = {
@@ -155,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             label: '38 UPP',
             data: UPP38,
-            backgroundColor: 'black',
+            backgroundColor: 'Lightgray',
             borderWidth: 2,
           },
           {
