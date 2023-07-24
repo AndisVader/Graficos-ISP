@@ -74,7 +74,7 @@ font-family: 'Narnoor', serif -para textos;
     padding: 150PX;
     font-size: 1.5em;
     background-size: 15px;
-    background-image: url(./assets/GRADE.png);
+    background-image: url(../assets/GRADE.png);
 }
 
 .text21 h2 {
@@ -119,7 +119,7 @@ font-family: 'Narnoor', serif -para textos;
     justify-content: space-around;
     align-items: center;
     margin-top: 90px;
-    background-image: url(./assets/GRADE.png);
+    background-image: url(../assets/GRADE.png);
     background-size: 10px;
     gap: 200px;
 }
